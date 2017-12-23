@@ -1,0 +1,10 @@
+package: github.com/shanexu/grpctest
+import:
+- package: google.golang.org/grpc
+  version: ^1.8.2
+- package: github.com/golang/protobuf
+  subpackages:
+  - protoc-gen-go
+- package: golang.org/x/net
+  subpackages:
+  - context
